@@ -1,0 +1,177 @@
+@font-face {
+  font-family: "HelveticaNeueBoldCondensed";
+  src: url("../fonts/HelveticaNeueBoldCondensed.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "HelveticaNeueCyr-Bold";
+  src: url("../fonts/HelveticaNeueCyr-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "HelveticaNeueCyr-Italic";
+  src: url("../fonts/HelveticaNeueCyr-Italic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "HelveticaNeueCyr-LightItalic";
+  src: url("../fonts/HelveticaNeueCyr-LightItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "HelveticaNeueCyr-Roman";
+  src: url("../fonts/HelveticaNeueCyr-Roman.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "HelveticaNeueCyr-Thin";
+  src: url("../fonts/HelveticaNeueCyr-Thin.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "HelveticaNeueCyr-ThinItalic";
+  src: url("../fonts/HelveticaNeueCyr-ThinItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "HelveticaNeueCyr-UltraLight";
+  src: url("../fonts/HelveticaNeueCyr-UltraLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "HelveticaNeueCyr-UltraLightItalic";
+  src: url("../fonts/HelveticaNeueCyr-UltraLightItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #60C77B;
+  padding-bottom: 30px; }
+
+.d-flex {
+  display: flex;
+  justify-content: space-between; }
+
+.container {
+  max-width: 1000px;
+  margin: auto; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style-type: none; }
+
+header {
+  background-color: #3B7A4C;
+  height: 100px;
+  box-sizing: border-box;
+  padding-top: 30px; }
+  header div {
+    text-align: center; }
+    header div h2 a {
+      color: #0c2d15;
+      font-family: "Bebas Neue", sans-serif;
+      font-size: 40px; }
+
+.nav-sec {
+  padding: 20px 5px 20px 10px;
+  background-image: url("../images/nav-poster.jpg");
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center; }
+  .nav-sec h2 {
+    color: #C4FBD2;
+    font-size: 28px;
+    font-family: "Bebas Neue", sans-serif;
+    margin-bottom: 15px; }
+  .nav-sec .nav-ul li {
+    border-bottom: solid 1px #78FA9B;
+    padding-bottom: 10px;
+    margin-bottom: 10px; }
+    .nav-sec .nav-ul li a {
+      color: #C4FBD2;
+      font-size: 22px;
+      font-family: "Bebas Neue", sans-serif;
+      font-weight: bold;
+      transition: 0.7s; }
+
+.text-block {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #C4FBD2; }
+  .text-block p {
+    padding: 20px 5px 20px 10px;
+    font-size: 25px;
+    color: #0c2d15;
+    font-family: "Adobe Caslon Pro Bold", sans-serif; }
+    .text-block p span {
+      font-weight: bold;
+      color: #3B7A4C; }
+
+.cat-item {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #3B7A4C;
+  border-radius: 15px;
+  padding: 6px;
+  background-color: white;
+  transition: 0.7s; }
+  .cat-item img {
+    width: 25%;
+    margin-right: 10px; }
+  .cat-item .cat-text {
+    font-family: "Adobe Caslon Pro Bold", sans-serif;
+    font-size: 16px;
+    color: grey; }
+    .cat-item .cat-text span {
+      color: #60C77B;
+      font-weight: bold;
+      font-size: 28px; }
+    .cat-item .cat-text.cost-p {
+      color: #0c2d15;
+      font-weight: bold;
+      font-size: 24px; }
+  .cat-item .describe-p {
+    font-family: "Adobe Caslon Pro Bold", sans-serif;
+    font-size: 16px;
+    color: grey; }
+  .cat-item:hover {
+    transform: scale(1.05); }
+
+.food-category {
+  font-size: 40px;
+  font-weight: bold;
+  display: block;
+  padding-bottom: 10px;
+  color: #3B7A4C;
+  border-bottom: 2px solid #3B7A4C; }
+
+.item-line {
+  margin-top: 40px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 40px; }
+  .item-line .item {
+    width: 48%;
+    background-color: #78FA9B;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center; }
+    .item-line .item img {
+      border-radius: 15px;
+      width: 100%; }
+    .item-line .item .descr-and-cost {
+      font-size: 28px;
+      font-family: "Bebas Neue", sans-serif;
+      color: #2f2f2f; }
+      .item-line .item .descr-and-cost span {
+        color: black; }
+
+/*# sourceMappingURL=style.css.map */
